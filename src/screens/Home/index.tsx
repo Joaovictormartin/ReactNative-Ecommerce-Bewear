@@ -7,6 +7,7 @@ import banner02 from "../../assets/banner-02.png";
 import { api } from "../../api";
 import { ProductsProps } from "../../@types/products";
 import { Header } from "../../components/common/Header";
+import { Footer } from "../../components/common/Footer";
 import { CategoriesProps } from "../../@types/categories";
 import { ProductList } from "../../components/common/ProductList";
 import { CategorySelector } from "../../components/common/CategorySelector";
@@ -16,38 +17,54 @@ import { styles } from "./styles";
 export const Home = () => {
   const [products, setProducts] = useState<ProductsProps[]>([]);
   const [categories, setCategories] = useState<CategoriesProps[]>([]);
+  const [newlyCreatedProducts, setNewlyCreatedProducts] = useState<
+    ProductsProps[]
+  >([]);
 
   const getProducts = async () => {
     try {
       const response = await api.get("/products");
+      if (response.status !== 200) return [];
 
-      if (response.status === 200) {
-        setProducts(response.data);
-      }
+      return response.data;
     } catch (error) {
       console.log(error);
+      return [];
     }
   };
 
   const getCategories = async () => {
     try {
       const response = await api.get("/categories");
+      if (response.status !== 200) return [];
 
-      if (response.status === 200) {
-        setCategories(response.data);
-      }
+      return response.data;
     } catch (error) {
       console.log(error);
+      return [];
     }
   };
 
+  const getData = async () => {
+    const [products, categories] = await Promise.all([
+      getProducts(),
+      getCategories(),
+    ]);
+
+    setProducts(products);
+    setCategories(categories);
+    setNewlyCreatedProducts(newlyCreatedProducts.reverse());
+  };
+
   useEffect(() => {
-    getProducts();
-    getCategories();
+    getData();
   }, []);
 
   return (
-    <ScrollView showsVerticalScrollIndicator={false}>
+    <ScrollView
+      showsVerticalScrollIndicator={false}
+      contentContainerStyle={styles.container}
+    >
       <Header />
 
       <View style={styles.content}>
@@ -64,6 +81,10 @@ export const Home = () => {
         <View style={styles.wrapperBanners}>
           <Image source={banner02} style={styles.banners} />
         </View>
+
+        <ProductList title="Novos produtos" products={newlyCreatedProducts} />
+
+        <Footer />
       </View>
     </ScrollView>
   );
