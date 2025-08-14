@@ -12,6 +12,9 @@ export const styles = StyleSheet.create({
   wrapperBanners: {
     paddingHorizontal: 10,
   },
+  wrapperCategorySelector: {
+    paddingHorizontal: 10,
+  },
   banners: {
     width: "100%",
     height: 460,
