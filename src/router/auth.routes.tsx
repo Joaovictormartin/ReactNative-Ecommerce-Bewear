@@ -3,11 +3,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import { Login } from "../screens/Login";
 import { Register } from "../screens/Register";
-
-type AuthStackProps = {
-  Login: undefined;
-  Register: undefined;
-};
+import { AuthStackProps } from "../@types/authStack";
 
 const RootStack = createNativeStackNavigator<AuthStackProps>({
   screens: {
