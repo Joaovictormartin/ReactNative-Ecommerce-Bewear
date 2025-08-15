@@ -1,5 +1,7 @@
 import { StyleSheet } from "react-native";
 
+import theme from "../../../styles/theme";
+
 export const styles = StyleSheet.create({
   container: {
     gap: 24,
@@ -11,7 +13,7 @@ export const styles = StyleSheet.create({
   title: {
     fontSize: 16,
     color: "#000000",
-    fontWeight: "600",
+    fontFamily: theme.fonts.semiBold,
     paddingHorizontal: 10,
   },
 });

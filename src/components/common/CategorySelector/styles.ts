@@ -1,5 +1,7 @@
 import { StyleSheet } from "react-native";
 
+import theme from "../../../styles/theme";
+
 export const styles = StyleSheet.create({
   container: {
     padding: 24,
@@ -27,6 +29,6 @@ export const styles = StyleSheet.create({
   textButtonCategory: {
     fontSize: 13,
     color: "#000000",
-    fontWeight: "600",
+    fontFamily: theme.fonts.semiBold,
   },
 });

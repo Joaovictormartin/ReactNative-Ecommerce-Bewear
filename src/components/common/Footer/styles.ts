@@ -1,5 +1,7 @@
 import { StyleSheet } from "react-native";
 
+import theme from "../../../styles/theme";
+
 export const styles = StyleSheet.create({
   container: {
     gap: 4,
@@ -9,11 +11,11 @@ export const styles = StyleSheet.create({
   copyright: {
     fontSize: 12,
     color: "#000000",
-    fontWeight: "500",
+    fontFamily: theme.fonts.medium,
   },
   rightsReserved: {
     fontSize: 12,
     color: "#656565",
-    fontWeight: "500",
+    fontFamily: theme.fonts.medium,
   },
 });

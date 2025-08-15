@@ -53,7 +53,7 @@ export const Home = () => {
 
     setProducts(products);
     setCategories(categories);
-    setNewlyCreatedProducts(newlyCreatedProducts.reverse());
+    setNewlyCreatedProducts(products.reverse());
   };
 
   useEffect(() => {
