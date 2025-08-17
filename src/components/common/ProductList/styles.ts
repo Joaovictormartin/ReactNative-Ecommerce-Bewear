@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontSize: 16,
-    color: "#000000",
+    color: theme.colors.black,
     fontFamily: theme.fonts.semiBold,
     paddingHorizontal: 10,
   },

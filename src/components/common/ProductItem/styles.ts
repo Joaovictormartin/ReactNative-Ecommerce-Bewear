@@ -14,19 +14,19 @@ export const styles = StyleSheet.create({
   },
   name: {
     fontSize: 14,
-    color: "#000000",
+    color: theme.colors.black,
     fontFamily: theme.fonts.medium,
   },
   description: {
     fontSize: 14,
-    color: "#656565",
+    color: theme.colors.gray,
     fontFamily: theme.fonts.medium,
 
     paddingTop: 4,
   },
   price: {
     fontSize: 14,
-    color: "#000000",
+    color: theme.colors.black,
     fontFamily: theme.fonts.semiBold,
 
     paddingTop: 12,

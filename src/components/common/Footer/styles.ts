@@ -7,16 +7,16 @@ export const styles = StyleSheet.create({
     width: "100%",
     gap: 4,
     padding: 30,
-    backgroundColor: "#F9F9F9",
+    backgroundColor: theme.colors.gray_light,
   },
   copyright: {
     fontSize: 12,
-    color: "#000000",
+    color: theme.colors.black,
     fontFamily: theme.fonts.medium,
   },
   rightsReserved: {
     fontSize: 12,
-    color: "#656565",
+    color: theme.colors.gray,
     fontFamily: theme.fonts.medium,
   },
 });

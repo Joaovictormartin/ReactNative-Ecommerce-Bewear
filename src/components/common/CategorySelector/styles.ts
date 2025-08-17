@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
   container: {
     padding: 24,
     borderRadius: 24,
-    backgroundColor: "#F4EFFF",
+    backgroundColor: theme.colors.magnolia,
   },
   content: {
     gap: 10,
@@ -24,11 +24,11 @@ export const styles = StyleSheet.create({
 
     borderRadius: 24,
     paddingVertical: 14,
-    backgroundColor: "#FFFFFF",
+    backgroundColor: theme.colors.white,
   },
   textButtonCategory: {
     fontSize: 13,
-    color: "#000000",
+    color: theme.colors.black,
     fontFamily: theme.fonts.semiBold,
   },
 });

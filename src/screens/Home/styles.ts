@@ -1,8 +1,10 @@
 import { StyleSheet } from "react-native";
 
+import theme from "../../styles/theme";
+
 export const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#FFFFFF",
+    backgroundColor: theme.colors.white,
   },
   content: {
     gap: 24,
@@ -17,7 +19,7 @@ export const styles = StyleSheet.create({
     width: "100%",
     height: 460,
     borderRadius: 24,
-    justifyContent: "center",
     alignItems: "center",
+    justifyContent: "center",
   },
 });

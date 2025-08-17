@@ -1,5 +1,7 @@
 import { StyleSheet } from "react-native";
 
+import theme from "../../../styles/theme";
+
 export const styles = StyleSheet.create({
   container: {
     paddingVertical: 20,
@@ -8,7 +10,7 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     justifyContent: "space-between",
-    backgroundColor: "#FFFFFF",
+    backgroundColor: theme.colors.white,
   },
   imageLogo: {
     width: 100,
@@ -22,6 +24,6 @@ export const styles = StyleSheet.create({
   separator: {
     width: 2,
     height: 24,
-    backgroundColor: "#D9D9D9",
+    backgroundColor: theme.colors.gray_medium,
   },
 });
