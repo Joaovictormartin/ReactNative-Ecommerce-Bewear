@@ -7,6 +7,7 @@ import {
   ImageStyle,
   TouchableOpacity,
 } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
 import { ProductsProps } from "../../../@types/products";
 import { formatCentsToBRL } from "../../../helpers/money";
@@ -24,10 +25,18 @@ export const ProductItem = ({
   stylesItem,
   stylesImage,
 }: ProductItemProps) => {
+  const { push } = useNavigation();
   const firstVariant = product?.variants[0];
 
+  const handleNavigateDetail = (slug: string) => {
+    push("ProductVariant", { slug });
+  };
+
   return (
-    <TouchableOpacity style={[styles.container, stylesItem]}>
+    <TouchableOpacity
+      style={[styles.container, stylesItem]}
+      onPress={() => handleNavigateDetail(firstVariant.slug)}
+    >
       <Image
         style={[styles.image, stylesImage]}
         source={{ uri: firstVariant.imageUrl }}

@@ -6,14 +6,7 @@ import { Register } from "../screens/Register";
 import { AuthStackProps } from "../@types/authStack";
 
 const RootStack = createNativeStackNavigator<AuthStackProps>({
-  screens: {
-    Login: {
-      screen: Login,
-    },
-    Register: {
-      screen: Register,
-    },
-  },
+  screens: { Login, Register },
   screenOptions: {
     headerShown: false,
   },

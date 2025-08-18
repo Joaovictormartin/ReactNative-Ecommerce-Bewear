@@ -1,4 +1,4 @@
-type ProductVariant = {
+export type ProductVariantProps = {
   id: string;
   name: string;
   productId: string;
@@ -14,5 +14,5 @@ export interface ProductsProps {
   slug: string;
   description: string;
   categoryId: string;
-  variants: ProductVariant[];
+  variants: ProductVariantProps[];
 }

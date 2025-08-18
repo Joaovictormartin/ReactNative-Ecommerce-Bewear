@@ -812,5 +812,565 @@
         }
       ]
     }
+  ],
+  "productVariants": [
+    {
+      "id": "v1a2b3c4-d5e6-4f78-9a0b-cdef12345678",
+      "name": "Preta",
+      "productId": "p1a2b3c4-d5e6-4f78-9a0b-cdef12345678",
+      "color": "Preta",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Acesso%CC%81rios/1/78f9fa3b_c793_472a_b183_e32495033da2.jpg",
+      "priceInCents": 12999,
+      "slug": "mochila-preta"
+    },
+    {
+      "id": "v2b3c4d5-e6f7-4f78-9a0b-cdef12345679",
+      "name": "Branca",
+      "productId": "p1a2b3c4-d5e6-4f78-9a0b-cdef12345678",
+      "color": "Branca",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Acesso%CC%81rios/1/dacd9927_7287_4b14_a94f_b3f18c9c4d15.jpg",
+      "priceInCents": 12999,
+      "slug": "mochila-branca"
+    },
+    {
+      "id": "v3c4d5e6-f7g8-4f78-9a0b-cdef12345680",
+      "name": "Branca",
+      "productId": "p2b3c4d5-e6f7-4g89-h0i1-jklm23456789",
+      "color": "Branca",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Acesso%CC%81rios/2/52c14d96_66fb_4b5e_b8a9_6b6cf21fb448.jpg",
+      "priceInCents": 1999,
+      "slug": "meia-alta-branca"
+    },
+    {
+      "id": "v4d5e6f7-g8h9-4f78-9a0b-cdef12345681",
+      "name": "Preta",
+      "productId": "p2b3c4d5-e6f7-4g89-h0i1-jklm23456789",
+      "color": "Preta",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Acesso%CC%81rios/2/b38172d0_067a_4f03_975d_3c1c10cfc5f4.jpg",
+      "priceInCents": 1999,
+      "slug": "meia-alta-preta"
+    },
+    {
+      "id": "v5e6f7g8-h9i0-4f78-9a0b-cdef12345682",
+      "name": "Preto",
+      "productId": "p3c4d5e6-f7g8-4h90-i1j2-klmn34567890",
+      "color": "Preto",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Acesso%CC%81rios/3/41f38755_76ea_4630_ba49_59991c345513.jpg",
+      "priceInCents": 8999,
+      "slug": "bone-nocta-preto"
+    },
+    {
+      "id": "v6f7g8h9-i0j1-4f78-9a0b-cdef12345683",
+      "name": "Vinho",
+      "productId": "p3c4d5e6-f7g8-4h90-i1j2-klmn34567890",
+      "color": "Vinho",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Acesso%CC%81rios/3/7a8c684b_9373_41aa_879a_c5ec99885b7a.jpg",
+      "priceInCents": 8999,
+      "slug": "bone-nocta-vinho"
+    },
+    {
+      "id": "v7g8h9i0-j1k2-4f78-9a0b-cdef12345684",
+      "name": "Azul",
+      "productId": "p3c4d5e6-f7g8-4h90-i1j2-klmn34567890",
+      "color": "Azul",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Acesso%CC%81rios/3/9bb87d7b_b388_42d8_b5ca_7761804d24f7.jpg",
+      "priceInCents": 8999,
+      "slug": "bone-nocta-azul"
+    },
+    {
+      "id": "v8h9i0j1-k2l3-4f78-9a0b-cdef12345685",
+      "name": "Azul",
+      "productId": "p4d5e6f7-g8h9-4i01-j2k3-lmno45678901",
+      "color": "Azul",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Acesso%CC%81rios/4/6f6b54d9_f06d_47da_b34a_0641a5e34fa4.jpg",
+      "priceInCents": 7999,
+      "slug": "bone-curvo-azul"
+    },
+    {
+      "id": "v9i0j1k2-l3m4-4f78-9a0b-cdef12345686",
+      "name": "Bege",
+      "productId": "p4d5e6f7-g8h9-4i01-j2k3-lmno45678901",
+      "color": "Bege",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Acesso%CC%81rios/4/9a1a09d7_4499_4968_9b22_e95200434631.png",
+      "priceInCents": 7999,
+      "slug": "bone-curvo-bege"
+    },
+    {
+      "id": "v0j1k2l3-m4n5-4f78-9a0b-cdef12345687",
+      "name": "Verde",
+      "productId": "p4d5e6f7-g8h9-4i01-j2k3-lmno45678901",
+      "color": "Verde",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Acesso%CC%81rios/4/ca47bcd5_e418_422d_b85c_45d8245aed03.jpg",
+      "priceInCents": 7999,
+      "slug": "bone-curvo-verde"
+    },
+    {
+      "id": "v1k2l3m4-n5o6-4f78-9a0b-cdef12345688",
+      "name": "Preto",
+      "productId": "p5e6f7g8-h9i0-4j12-k3l4-mnop56789012",
+      "color": "Preto",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Bermuda+%26+Shorts/1/2bd85c0d_d637_49f3_bc35_c6c7c0062b5f.jpg",
+      "priceInCents": 6999,
+      "slug": "shorts-active-preto"
+    },
+    {
+      "id": "v2l3m4n5-o6p7-4f78-9a0b-cdef12345689",
+      "name": "Azul",
+      "productId": "p5e6f7g8-h9i0-4j12-k3l4-mnop56789012",
+      "color": "Azul",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Bermuda+%26+Shorts/1/57208a2b_6dda_4f46_a856_dd1b90d7432d.png",
+      "priceInCents": 6999,
+      "slug": "shorts-active-azul"
+    },
+    {
+      "id": "v3m4n5o6-p7q8-4f78-9a0b-cdef12345690",
+      "name": "Verde",
+      "productId": "p5e6f7g8-h9i0-4j12-k3l4-mnop56789012",
+      "color": "Verde",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Bermuda+%26+Shorts/1/91674907_139b_41b1_95fa_3e570d4376f1.jpg",
+      "priceInCents": 6999,
+      "slug": "shorts-active-verde"
+    },
+    {
+      "id": "v4n5o6p7-q8r9-4f78-9a0b-cdef12345691",
+      "name": "Verde",
+      "productId": "p6f7g8h9-i0j1-4k23-l4m5-nopq67890123",
+      "color": "Verde",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Bermuda+%26+Shorts/2/6120253a_d8b3_453b_a0b5_3ca783ae9510.jpg",
+      "priceInCents": 5999,
+      "slug": "shorts-core-verde"
+    },
+    {
+      "id": "v5o6p7q8-r9s0-4f78-9a0b-cdef12345692",
+      "name": "Preto",
+      "productId": "p6f7g8h9-i0j1-4k23-l4m5-nopq67890123",
+      "color": "Preto",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Bermuda+%26+Shorts/2/a5562ec7_e37a_49db_911b_26dd787463ab.jpg",
+      "priceInCents": 5999,
+      "slug": "shorts-core-preto"
+    },
+    {
+      "id": "v6p7q8r9-s0t1-4f78-9a0b-cdef12345693",
+      "name": "Azul",
+      "productId": "p6f7g8h9-i0j1-4k23-l4m5-nopq67890123",
+      "color": "Azul",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Bermuda+%26+Shorts/2/e067a9e3_f9b4_4d81_8129_c90effc1038b.jpg",
+      "priceInCents": 5999,
+      "slug": "shorts-core-azul"
+    },
+    {
+      "id": "v7q8r9s0-t1u2-4f78-9a0b-cdef12345694",
+      "name": "Marrom",
+      "productId": "p7g8h9i0-j1k2-4l34-m5n6-opqr78901234",
+      "color": "Marrom",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Bermuda+%26+Shorts/3/78253172_fe17_4add_b597_88c689a2af3f.jpg",
+      "priceInCents": 7499,
+      "slug": "shorts-challenger-marrom"
+    },
+    {
+      "id": "v8r9s0t1-u2v3-4f78-9a0b-cdef12345695",
+      "name": "Preto",
+      "productId": "p7g8h9i0-j1k2-4l34-m5n6-opqr78901234",
+      "color": "Preto",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Bermuda+%26+Shorts/3/b8bf902f_de19_4ad9_bea8_87aa4d1f5679.webp",
+      "priceInCents": 7499,
+      "slug": "shorts-challenger-preto"
+    },
+    {
+      "id": "v9s0t1u2-v3w4-4f78-9a0b-cdef12345696",
+      "name": "Bege",
+      "productId": "p7g8h9i0-j1k2-4l34-m5n6-opqr78901234",
+      "color": "Bege",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Bermuda+%26+Shorts/3/eda6b80f_1fba_4934_a242_0cd93b401677.jpg",
+      "priceInCents": 7499,
+      "slug": "shorts-challenger-bege"
+    },
+    {
+      "id": "v0t1u2v3-w4x5-4f78-9a0b-cdef12345697",
+      "name": "Verde",
+      "productId": "p8h9i0j1-k2l3-4m45-n6o7-pqrs89012345",
+      "color": "Verde",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Bermuda+%26+Shorts/4/7a8d5bd9_0de8_4247_9374_aadce84042ea.jpg",
+      "priceInCents": 8999,
+      "slug": "bermuda-premier-verde"
+    },
+    {
+      "id": "v1u2v3w4-x5y6-4f78-9a0b-cdef12345698",
+      "name": "Preta",
+      "productId": "p8h9i0j1-k2l3-4m45-n6o7-pqrs89012345",
+      "color": "Preta",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Bermuda+%26+Shorts/4/a277cf75_a377_4557_bb70_ef155651338e.jpg",
+      "priceInCents": 8999,
+      "slug": "bermuda-premier-preta"
+    },
+    {
+      "id": "v2v3w4x5-y6z7-4f78-9a0b-cdef12345699",
+      "name": "Azul",
+      "productId": "p8h9i0j1-k2l3-4m45-n6o7-pqrs89012345",
+      "color": "Azul",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Bermuda+%26+Shorts/4/a7948f93_42ac_4363_92a7_e2b3f7754230.jpg",
+      "priceInCents": 8999,
+      "slug": "bermuda-premier-azul"
+    },
+    {
+      "id": "v3w4x5y6-z7a8-4f78-9a0b-cdef12345600",
+      "name": "Bege",
+      "productId": "p9i0j1k2-l3m4-4n56-o7p8-qrst90123456",
+      "color": "Bege",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Calc%CC%A7as/1/1cef0dc4_e296_4809_94b6_66cb3164aa43.jpg",
+      "priceInCents": 15999,
+      "slug": "calca-nike-club-bege"
+    },
+    {
+      "id": "v4x5y6z7-a8b9-4f78-9a0b-cdef12345601",
+      "name": "Preta",
+      "productId": "p9i0j1k2-l3m4-4n56-o7p8-qrst90123456",
+      "color": "Preta",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Calc%CC%A7as/1/611af69f_d7e7_4365_83a8_3aca96922d87.jpg",
+      "priceInCents": 15999,
+      "slug": "calca-nike-club-preta"
+    },
+    {
+      "id": "v5y6z7a8-b9c0-4f78-9a0b-cdef12345602",
+      "name": "Vinho",
+      "productId": "p9i0j1k2-l3m4-4n56-o7p8-qrst90123456",
+      "color": "Vinho",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Calc%CC%A7as/1/e4d6bfa8_88b0_484e_8e07_5f5fc5e5cfbb.jpg",
+      "priceInCents": 15999,
+      "slug": "calca-nike-club-vinho"
+    },
+    {
+      "id": "v6z7a8b9-c0d1-4f78-9a0b-cdef12345603",
+      "name": "Preta",
+      "productId": "p0j1k2l3-m4n5-4o67-p8q9-rstu01234567",
+      "color": "Preta",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Calc%CC%A7as/2/3e90bb34_eb11_4cc0_930a_f1a4dcb5a4a1.png",
+      "priceInCents": 12999,
+      "slug": "calca-knit-preta"
+    },
+    {
+      "id": "v7a8b9c0-d1e2-4f78-9a0b-cdef12345604",
+      "name": "Branca",
+      "productId": "p0j1k2l3-m4n5-4o67-p8q9-rstu01234567",
+      "color": "Branca",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Calc%CC%A7as/2/d2766b69_177e_4c1d_abfe_93bb92c502f6.png",
+      "priceInCents": 12999,
+      "slug": "calca-knit-branca"
+    },
+    {
+      "id": "v8b9c0d1-e2f3-4f78-9a0b-cdef12345605",
+      "name": "Azul",
+      "productId": "p0j1k2l3-m4n5-4o67-p8q9-rstu01234567",
+      "color": "Azul",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Calc%CC%A7as/2/e5b271dd_1696_4ff0_8cc9_649b45ef2c88.jpg",
+      "priceInCents": 12999,
+      "slug": "calca-knit-azul"
+    },
+    {
+      "id": "v9c0d1e2-f3g4-4f78-9a0b-cdef12345606",
+      "name": "Bege",
+      "productId": "p1k2l3m4-n5o6-4p78-q9r0-stuv12345678",
+      "color": "Bege",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Calc%CC%A7as/3/18a2f43f_a0bb_4d7e_a626_27c2f3b58017.jpg",
+      "priceInCents": 13999,
+      "slug": "calca-brooklin-bege"
+    },
+    {
+      "id": "v0d1e2f3-g4h5-4f78-9a0b-cdef12345607",
+      "name": "Branca",
+      "productId": "p1k2l3m4-n5o6-4p78-q9r0-stuv12345678",
+      "color": "Branca",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Calc%CC%A7as/3/18a2f43f_a0bb_4d7e_a626_27c2f3b58017.jpg",
+      "priceInCents": 13999,
+      "slug": "calca-brooklin-branca"
+    },
+    {
+      "id": "v1e2f3g4-h5i6-4f78-9a0b-cdef12345608",
+      "name": "Preta",
+      "productId": "p1k2l3m4-n5o6-4p78-q9r0-stuv12345678",
+      "color": "Preta",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Calc%CC%A7as/3/915f96a0_8714_42d7_8d2d_e897d5a9ce7a.jpg",
+      "priceInCents": 13999,
+      "slug": "calca-brooklin-preta"
+    },
+    {
+      "id": "v2f3g4h5-i6j7-4f78-9a0b-cdef12345609",
+      "name": "Verde",
+      "productId": "p2l3m4n5-o6p7-4q89-r0s1-tuvw23456789",
+      "color": "Verde",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Calc%CC%A7as/4/1805ffd2_5fb7_454b_b098_2b00902025f3.jpg",
+      "priceInCents": 18999,
+      "slug": "calca-jordan-verde"
+    },
+    {
+      "id": "v3g4h5i6-j7k8-4f78-9a0b-cdef12345610",
+      "name": "Preta",
+      "productId": "p2l3m4n5-o6p7-4q89-r0s1-tuvw23456789",
+      "color": "Preta",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Calc%CC%A7as/4/b97f4616_986e_4f1e_a577_905cb99eb213.jpg",
+      "priceInCents": 18999,
+      "slug": "calca-jordan-preta"
+    },
+    {
+      "id": "v4h5i6j7-k8l9-4f78-9a0b-cdef12345611",
+      "name": "Azul",
+      "productId": "p2l3m4n5-o6p7-4q89-r0s1-tuvw23456789",
+      "color": "Azul",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Calc%CC%A7as/4/d626872b_35b1_4a96_b58a_ea5f7d6ceab7.jpg",
+      "priceInCents": 18999,
+      "slug": "calca-jordan-azul"
+    },
+    {
+      "id": "v5i6j7k8-l9m0-4f78-9a0b-cdef12345612",
+      "name": "Bege",
+      "productId": "p3m4n5o6-p7q8-4r90-s1t2-uvwx34567890",
+      "color": "Bege",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Camisetas/1/4f57e719_e120_4525_83d5_16955e27061b.png",
+      "priceInCents": 6999,
+      "slug": "camiseta-acg-bege"
+    },
+    {
+      "id": "v6j7k8l9-m0n1-4f78-9a0b-cdef12345613",
+      "name": "Preta",
+      "productId": "p3m4n5o6-p7q8-4r90-s1t2-uvwx34567890",
+      "color": "Preta",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Camisetas/1/a8a08dfb_a495_4c1b_9873_aa504cfe2fd7.webp",
+      "priceInCents": 6999,
+      "slug": "camiseta-acg-preta"
+    },
+    {
+      "id": "v7k8l9m0-n1o2-4f78-9a0b-cdef12345614",
+      "name": "Branca",
+      "productId": "p3m4n5o6-p7q8-4r90-s1t2-uvwx34567890",
+      "color": "Branca",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Camisetas/1/a8c7b41f_69f0_4894_994f_de01533d1161.jpg",
+      "priceInCents": 6999,
+      "slug": "camiseta-acg-branca"
+    },
+    {
+      "id": "v8l9m0n1-o2p3-4f78-9a0b-cdef12345615",
+      "name": "Preta",
+      "productId": "p4n5o6p7-q8r9-4s01-t2u3-vwxy45678901",
+      "color": "Preta",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Camisetas/2/67db843e_691c_44a6_87b6_f5e01a1bcafe.webp",
+      "priceInCents": 5999,
+      "slug": "camiseta-run-preta"
+    },
+    {
+      "id": "v9m0n1o2-p3q4-4f78-9a0b-cdef12345616",
+      "name": "Azul",
+      "productId": "p4n5o6p7-q8r9-4s01-t2u3-vwxy45678901",
+      "color": "Azul",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Camisetas/2/83ab03e1_6383_450b_b203_3509a00fdaf7.jpg",
+      "priceInCents": 5999,
+      "slug": "camiseta-run-azul"
+    },
+    {
+      "id": "v0n1o2p3-q4r5-4f78-9a0b-cdef12345617",
+      "name": "Branca",
+      "productId": "p5o6p7q8-r9s0-4t12-u3v4-wxyz56789012",
+      "color": "Branca",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Camisetas/3/c222d1e5_7cd7_4794_b644_57f47c9d344c.jpg",
+      "priceInCents": 5499,
+      "slug": "camiseta-active-branca"
+    },
+    {
+      "id": "v1o2p3q4-r5s6-4f78-9a0b-cdef12345618",
+      "name": "Preta",
+      "productId": "p5o6p7q8-r9s0-4t12-u3v4-wxyz56789012",
+      "color": "Preta",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Camisetas/3/d4c0657c_c2c2_4356_a509_61cd9ecc4148.webp",
+      "priceInCents": 5499,
+      "slug": "camiseta-active-preta"
+    },
+    {
+      "id": "v2p3q4r5-s6t7-4f78-9a0b-cdef12345619",
+      "name": "Preta",
+      "productId": "p6p7q8r9-s0t1-4u23-v4w5-xyza67890123",
+      "color": "Preta",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Camisetas/4/caa3015c_61b3_4315_86b1_cc62ab1d2fee.jpg",
+      "priceInCents": 6499,
+      "slug": "camiseta-nature-preta"
+    },
+    {
+      "id": "v3q4r5s6-t7u8-4f78-9a0b-cdef12345620",
+      "name": "Azul",
+      "productId": "p6p7q8r9-s0t1-4u23-v4w5-xyza67890123",
+      "color": "Azul",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Camisetas/4/d0e40dd5_2060_450e_a423_6e894bc0573f.webp",
+      "priceInCents": 6499,
+      "slug": "camiseta-nature-azul"
+    },
+    {
+      "id": "v4r5s6t7-u8v9-4f78-9a0b-cdef12345621",
+      "name": "Preto",
+      "productId": "p7q8r9s0-t1u2-4v34-w5x6-yzab78901234",
+      "color": "Preto",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Jaquetas+%26+Moletons/1/4e134ee9_ce18_4b32_a4ad_aa55026a38f9.jpg",
+      "priceInCents": 19999,
+      "slug": "corta-vento-preto"
+    },
+    {
+      "id": "v5s6t7u8-v9w0-4f78-9a0b-cdef12345622",
+      "name": "Branco",
+      "productId": "p7q8r9s0-t1u2-4v34-w5x6-yzab78901234",
+      "color": "Branco",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Jaquetas+%26+Moletons/1/74ab7c8c_7c54_4c49_8084_24a87fe0fc85.jpg",
+      "priceInCents": 19999,
+      "slug": "corta-vento-branco"
+    },
+    {
+      "id": "v6t7u8v9-w0x1-4f78-9a0b-cdef12345623",
+      "name": "Azul",
+      "productId": "p8r9s0t1-u2v3-4w45-x6y7-zabc89012345",
+      "color": "Azul",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Jaquetas+%26+Moletons/2/79afe358_deb0_4309_8301_02a6e6aa6108.jpg",
+      "priceInCents": 22999,
+      "slug": "jaqueta-windrunner-azul"
+    },
+    {
+      "id": "v7u8v9w0-x1y2-4f78-9a0b-cdef12345624",
+      "name": "Bege",
+      "productId": "p8r9s0t1-u2v3-4w45-x6y7-zabc89012345",
+      "color": "Bege",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Jaquetas+%26+Moletons/2/bc06d5b0_be4b_4c74_8c6e_8645ea7168bb.jpg",
+      "priceInCents": 22999,
+      "slug": "jaqueta-windrunner-bege"
+    },
+    {
+      "id": "v8v9w0x1-y2z3-4f78-9a0b-cdef12345625",
+      "name": "Marrom",
+      "productId": "p9s0t1u2-v3w4-4x56-y7z8-abcd90123456",
+      "color": "Marrom",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Jaquetas+%26+Moletons/3/06222020_01b8_4232_92f4_dc0c92bb25da.webp",
+      "priceInCents": 17999,
+      "slug": "jaqueta-style-marrom"
+    },
+    {
+      "id": "v9w0x1y2-z3a4-4f78-9a0b-cdef12345626",
+      "name": "Cinza",
+      "productId": "p9s0t1u2-v3w4-4x56-y7z8-abcd90123456",
+      "color": "Cinza",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Jaquetas+%26+Moletons/3/97de604a_deef_4594_a5a6_f51c18c71216.jpg",
+      "priceInCents": 17999,
+      "slug": "jaqueta-style-cinza"
+    },
+    {
+      "id": "v0x1y2z3-a4b5-4f78-9a0b-cdef12345627",
+      "name": "Azul",
+      "productId": "p0t1u2v3-w4x5-4y67-z8a9-bcde01234567",
+      "color": "Azul",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Jaquetas+%26+Moletons/4/134c9642_f032_4c6e_84a8_68de99e3dcb7.jpg",
+      "priceInCents": 25999,
+      "slug": "jaqueta-nike-club-azul"
+    },
+    {
+      "id": "v1y2z3a4-b5c6-4f78-9a0b-cdef12345628",
+      "name": "Amarela",
+      "productId": "p0t1u2v3-w4x5-4y67-z8a9-bcde01234567",
+      "color": "Amarela",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Jaquetas+%26+Moletons/4/d8d78682_c480_40b0_97a1_93ab201b3287.jpg",
+      "priceInCents": 25999,
+      "slug": "jaqueta-nike-club-amarela"
+    },
+    {
+      "id": "v2z3a4b5-c6d7-4f78-9a0b-cdef12345629",
+      "name": "Preto",
+      "productId": "p1u2v3w4-x5y6-4z78-a9b0-cdef12345678",
+      "color": "Preto",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Te%CC%82nis/1/85dc96b6_1cef_43ec_8cef_40e3938ac7cf.jpg",
+      "priceInCents": 79999,
+      "slug": "tenis-nike-vomero-preto"
+    },
+    {
+      "id": "v3a4b5c6-d7e8-4f78-9a0b-cdef12345630",
+      "name": "Branco",
+      "productId": "p1u2v3w4-x5y6-4z78-a9b0-cdef12345678",
+      "color": "Branco",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Te%CC%82nis/1/a4b97d0e_0065_4818_90f2_b0778ac48c6b.jpg",
+      "priceInCents": 79999,
+      "slug": "tenis-nike-vomero-branco"
+    },
+    {
+      "id": "v4b5c6d7-e8f9-4f78-9a0b-cdef12345631",
+      "name": "Azul",
+      "productId": "p1u2v3w4-x5y6-4z78-a9b0-cdef12345678",
+      "color": "Azul",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Te%CC%82nis/1/ac052fe0_60ce_4ce9_8b3c_fd5fb72eaf3b.jpg",
+      "priceInCents": 79999,
+      "slug": "tenis-nike-vomero-azul"
+    },
+    {
+      "id": "v5c6d7e8-f9g0-4f78-9a0b-cdef12345632",
+      "name": "Verde",
+      "productId": "p2v3w4x5-y6z7-4a89-b0c1-defg23456789",
+      "color": "Verde",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Te%CC%82nis/2/2156e314_9889_4bdc_962d_7350f66cdf7f.jpg",
+      "priceInCents": 69999,
+      "slug": "tenis-nike-panda-verde"
+    },
+    {
+      "id": "v6d7e8f9-g0h1-4f78-9a0b-cdef12345633",
+      "name": "Azul",
+      "productId": "p2v3w4x5-y6z7-4a89-b0c1-defg23456789",
+      "color": "Azul",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Te%CC%82nis/2/2b938204_3950_4295_b61c_d4311045fed0.jpg",
+      "priceInCents": 69999,
+      "slug": "tenis-nike-panda-azul"
+    },
+    {
+      "id": "v7e8f9g0-h1i2-4f78-9a0b-cdef12345634",
+      "name": "Preto",
+      "productId": "p2v3w4x5-y6z7-4a89-b0c1-defg23456789",
+      "color": "Preto",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Te%CC%82nis/2/6ad78a9f_14a9_4590_8e7c_9392d0523678.jpg",
+      "priceInCents": 69999,
+      "slug": "tenis-nike-panda-preto"
+    },
+    {
+      "id": "v8f9g0h1-i2j3-4f78-9a0b-cdef12345635",
+      "name": "Preto",
+      "productId": "p3w4x5y6-z7a8-4b90-c1d2-efgh34567890",
+      "color": "Preto",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Te%CC%82nis/3/5daa00d9_afae_4125_a95c_fc71923b81c3.jpg",
+      "priceInCents": 89999,
+      "slug": "tenis-nike-air-force-preto"
+    },
+    {
+      "id": "v9g0h1i2-j3k4-4f78-9a0b-cdef12345636",
+      "name": "Branco",
+      "productId": "p3w4x5y6-z7a8-4b90-c1d2-efgh34567890",
+      "color": "Branco",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Te%CC%82nis/3/e6da41fa_1be4_4ce5_b89c_22be4f1f02d4.jpg",
+      "priceInCents": 89999,
+      "slug": "tenis-nike-air-force-branco"
+    },
+    {
+      "id": "v0h1i2j3-k4l5-4f78-9a0b-cdef12345637",
+      "name": "Branco",
+      "productId": "p4x5y6z7-a8b9-4c01-d2e3-fghi45678901",
+      "color": "Branco",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Te%CC%82nis/4/4bc9c840_d8af_411a_9b72_a3f51f6dd3da.jpg",
+      "priceInCents": 75999,
+      "slug": "tenis-nike-dunk-low-branco"
+    },
+    {
+      "id": "v1i2j3k4-l5m6-4f78-9a0b-cdef12345638",
+      "name": "Preto",
+      "productId": "p4x5y6z7-a8b9-4c01-d2e3-fghi45678901",
+      "color": "Preto",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Te%CC%82nis/4/72f07a5b_4fb8_4182_98b7_1f91ad71ed5c.jpg",
+      "priceInCents": 75999,
+      "slug": "tenis-nike-dunk-low-preto"
+    },
+    {
+      "id": "v2j3k4l5-m6n7-4f78-9a0b-cdef12345639",
+      "name": "Azul",
+      "productId": "p4x5y6z7-a8b9-4c01-d2e3-fghi45678901",
+      "color": "Azul",
+      "imageUrl": "https://d4lgxe9bm8juw.cloudfront.net/products/Te%CC%82nis/4/bb4e381c_84ae_4ced_814f_8553afc6eacf.jpg",
+      "priceInCents": 75999,
+      "slug": "tenis-nike-dunk-low-azul"
+    }
   ]
 }

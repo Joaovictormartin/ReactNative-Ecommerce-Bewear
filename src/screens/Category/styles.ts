@@ -5,11 +5,11 @@ import theme from "../../styles/theme";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#FFFFFF",
+    backgroundColor: theme.colors.white,
   },
   title: {
     fontSize: 18,
-    color: "#000000",
+    color: theme.colors.black,
     fontFamily: theme.fonts.semiBold,
   },
   content: {
@@ -19,9 +19,9 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
   header: {
+    gap: 10,
     flexDirection: "row",
     alignItems: "center",
-    gap: 10,
   },
   wrapperProducts: {
     gap: 10,

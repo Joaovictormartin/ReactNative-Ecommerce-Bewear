@@ -5,6 +5,7 @@ import { ScrollView, Text, TouchableOpacity, View } from "react-native";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 
 import { api } from "../../api";
+import theme from "../../styles/theme";
 import { ProductsProps } from "../../@types/products";
 import { AppStackProps } from "../../@types/appStack";
 import { Header } from "../../components/common/Header";
@@ -18,10 +19,11 @@ type CategoryProps = NativeStackScreenProps<AppStackProps, "Category">;
 
 export const Category = ({ route }: CategoryProps) => {
   const { slug } = route.params;
+  const { gray } = theme.colors;
   const { goBack } = useNavigation();
 
-  const [products, setProducts] = useState<ProductsProps[]>([]);
   const [category, setCategory] = useState<CategoriesProps>();
+  const [products, setProducts] = useState<ProductsProps[]>([]);
 
   const getData = async (slug: string) => {
     try {
@@ -52,7 +54,7 @@ export const Category = ({ route }: CategoryProps) => {
       <View style={styles.content}>
         <View style={styles.header}>
           <TouchableOpacity activeOpacity={0.7} onPress={goBack}>
-            <Feather name="arrow-left" size={24} color="#656565" />
+            <Feather name="arrow-left" size={24} color={gray} />
           </TouchableOpacity>
 
           <Text style={styles.title}>{category?.name}</Text>
